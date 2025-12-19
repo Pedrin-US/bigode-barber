@@ -59,7 +59,7 @@ HORARIOS_TODOS = [
     "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", 
     "17:00", "17:30", "18:00", "18:30"
 ]
-SERVICOS = ["BARBA R$15", "CABELO R$25", "BARBA+CABELO R$35", "NEVOU R$100", "LUZES R$80", "PEZINHO R$10"]
+SERVICOS = ["BARBA R$15", "CABELO R$25", "BARBA+CABELO R$35", "NEVOU COMPLETO R$100", "LUZES R$80", "PEZINHO R$10, "CORTE+PIGMENTAÇÃO R$35",]
 
 # --- Área do Cliente ---
 st.title("✂️ Bigode Barber")
@@ -159,3 +159,4 @@ with st.expander("🔐 Painel do Administrador"):
                     st.rerun()
         else:
             st.info("Ainda não há agendamentos registrados.")
+
